@@ -7,7 +7,7 @@
    <title>AD1 Project</title>
    
    <!-- Mobile Specific Metas -->
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <!-- Add your font here -->
    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
@@ -39,8 +39,9 @@
 
 
 <body>
+<script>var windowResize = THREEx.WindowResize(aRenderer, aCamera)</script>
 
-<div class="questions">   
+<div class="questions padding">   
           <ul class="target">
             <p>Arrange the objects below in response to the prompt. Each object represents a character in the narrative.</p>
             <li>Who deserves prominence?</li>
@@ -51,7 +52,7 @@
             <li>Who chose to remove choice?</li>
             <li>Who is the enemy?</li>
             <li>Who lacks precedence?</li>
-            <button class="button" >next</button>
+            <button class="button">next</button>
             <!-- <button class="button" value="Refresh Page" onClick="window.location.reload()">next</button> -->
           </ul> 
 </div>
@@ -63,7 +64,6 @@
                 }).click();
             });
         </script>
-
 
 
 
@@ -158,8 +158,6 @@
 
       THREEx.WindowResize(renderer, camera);
       </script>
-
-
 </body>
 
 </html>
