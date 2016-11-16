@@ -7,7 +7,7 @@
    <title>AD1 Project</title>
    
    <!-- Mobile Specific Metas -->
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 
    <!-- Add your font here -->
    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
@@ -24,7 +24,6 @@
    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
    <!--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-   <script src="jquery.ui.touch-punch.min.js"></script>
    <script>
       $( function() {
       $( ".draggable" ).draggable();
@@ -39,9 +38,8 @@
 
 
 <body>
-<script>var windowResize = THREEx.WindowResize(aRenderer, aCamera)</script>
 
-<div class="questions padding">   
+<div class="questions" style="margin-top:2%;position:absolute;">   
           <ul class="target">
             <p>Arrange the objects below in response to the prompt. Each object represents a character in the narrative.</p>
             <li>Who deserves prominence?</li>
@@ -49,10 +47,11 @@
             <li>Who didn't have a choice?</li>
             <li>Who was right?</li>
             <li>Who was wrong?</li>
-            <li>Who removed choice?</li>
+            <li>Who chose to remove choice?</li>
             <li>Who is the enemy?</li>
             <li>Who lacks precedence?</li>
-            <button class="button">next</button>
+            <button class="button" >next</button>
+            <button class="button2" onclick="location.href='index-2.html';" value="change diagrams" style="margin-left:50px">change diagrams</button>
             <!-- <button class="button" value="Refresh Page" onClick="window.location.reload()">next</button> -->
           </ul> 
 </div>
@@ -64,6 +63,7 @@
                 }).click();
             });
         </script>
+
 
 
 
@@ -158,6 +158,8 @@
 
       THREEx.WindowResize(renderer, camera);
       </script>
+
+
 </body>
 
 </html>
