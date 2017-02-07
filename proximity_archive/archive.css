@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css?family=roboto:300,400');
+
+html {
+   width: 100vw;
+   height: 100vh;
+   background-color: #ffffff;
+   font-size: 14px; 
+   text-align: left;
+   
+}
+
+body {
+   max-width: 100%;
+   font-family: 'Roboto', sans-serif;
+
+}
+
+.columns {
+   width: 40%;
+   margin: 5% 0 0 35%;
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+
+}
+.columns a {
+  text-decoration:none;
+  color: #000;
+
+}
+.columns a:hover {
+  color: #ccc;
+}
+
+/*
+
+.four {
+  float:left;
+  top: 0%;
+  left:0%;
+  position:absolute; }
+.four:hover {
+  font-color: #0044ff; }
+.four-hidden {
+  display:none; }
+.four:hover .four-hidden {
+  display:block; }
+
+.two {
+  float:left;
+  top: 0%;
+  left:0%;
+  position:absolute; }
+.two:hover {
+  font-color: #0044ff; }
+.two-hidden {
+  display:none; }
+.two:hover .two-hidden {
+  display:block; }
+
+.three {
+  float:left;
+  top: 10%;
+  left:30%;
+  position:absolute; }
+.three:hover {
+  font-color: #0044ff; }
+.three-hidden {
+  display:none; }
+.three:hover .three-hidden {
+  display:block; }
+
+.four {
+  float:left;
+  top: 15%;
+  left:30%;
+  position:absolute; }
+.four:hover {
+  font-color: #0044ff; }
+.four-hidden {
+  display:none; }
+.four:hover .four-hidden {
+  display:block; }
+
+.five {
+  float:left;
+  top: 20%;
+  left:30%;
+  position:absolute; }
+.five:hover {
+  font-color: #0044ff; }
+.five-hidden {
+  display:none; }
+.five:hover .five-hidden {
+  display:block; }
+
+.six {
+  float:left;
+  top: 25%;
+  left:30%;
+  position:absolute; }
+.six:hover {
+  font-color: #0044ff; }
+.six-hidden {
+  display:none; }
+.six:hover .six-hidden {
+  display:block; }
+
+.seven {
+  float:left;
+  top: 30%;
+  left:30%;
+  position:absolute; }
+.seven:hover {
+  font-color: #0044ff; }
+.seven-hidden {
+  display:none; }
+.seven:hover .seven-hidden {
+  display:block; }
+
+.eight {
+  float:left;
+  top: 35%;
+  left:30%;
+  position:absolute; }
+.eight:hover {
+  font-color: #0044ff; }
+.eight-hidden {
+  display:none; }
+.eight:hover .eight-hidden {
+  display:block; }
+
+.nine {
+  float:left;
+  top: 40%;
+  left:30%;
+  position:absolute; }
+.nine:hover {
+  font-color: #0044ff; }
+.nine-hidden {
+  display:none; }
+.nine:hover .nine-hidden {
+  display:block; }
+
+.ten {
+  float:left;
+  top: 45%;
+  left:30%;
+  position:absolute; }
+.ten:hover {
+  font-color: #0044ff; }
+.ten-hidden {
+  display:none; }
+.ten:hover .ten-hidden {
+  display:block; }
+
+.eleven {
+  float:left;
+  top: 50%;
+  left:30%;
+  position:absolute; }
+.eleven:hover {
+  font-color: #0044ff; }
+.eleven-hidden {
+  display:none; }
+.eleven:hover .eleven-hidden {
+  display:block; }
+
+.twelve {
+  float:left;
+  top: 55%;
+  left:30%;
+  position:absolute; }
+.twelve:hover {
+  font-color: #0044ff; }
+.twelve-hidden {
+  display:none; }
+.twelve:hover .twelve-hidden {
+  display:block; }
+
+.thirteen {
+  float:left;
+  top: 60%;
+  left:30%;
+  position:absolute; }
+.thirteen:hover {
+  font-color: #0044ff; }
+.thirteen-hidden {
+  display:none; }
+.thirteen:hover .thirteen-hidden {
+  display:block; }
+
+.fourteen {
+  float:left;
+  top: 65%;
+  left:30%;
+  position:absolute; }
+.fourteen:hover {
+  font-color: #0044ff; }
+.fourteen-hidden {
+  display:none; }
+.fourteen:hover .fourteen-hidden {
+  display:block; }
+
+.fifteen {
+  float:left;
+  top: 70%;
+  left:30%;
+  position:absolute; }
+.fifteen:hover {
+  font-color: #0044ff; }
+.fifteen-hidden {
+  display:none; }
+.fifteen:hover .fifteen-hidden {
+  display:block; }
+
+.sixteen  {
+  float:left;
+  top: 75%;
+  left:30%;
+  position:absolute; }
+.sixteen:hover {
+  font-color: #0044ff; }
+.sixteen-hidden {
+  display:none; }
+.sixteen:hover .sixteen-hidden {
+  display:block; }
+
+.seventeen {
+  float:left;
+  top: 80%;
+  left:30%;
+  position:absolute; }
+.seventeen:hover {
+  font-color: #0044ff; }
+.seventeen-hidden {
+  display:none; }
+.seventeen:hover .seventeen-hidden {
+  display:block; }
+
+.eighteen {
+  float:left;
+  top: 10%;
+  left:50%;
+  position:absolute; }
+.eighteen:hover {
+  font-color: #0044ff; }
+.eighteen-hidden {
+  display:none; }
+.eighteen:hover .eighteen-hidden {
+  display:block; }
+
+.nineteen {
+  float:left;
+  top: 15%;
+  left:50%;
+  position:absolute; }
+.nineteen:hover {
+  font-color: #0044ff; }
+.nineteen-hidden {
+  display:none; }
+.nineteen:hover .nineteen-hidden {
+  display:block; }
+
+.twenty {
+  float:left;
+  top: 20%;
+  left:50%;
+  position:absolute; }
+.twenty:hover {
+  font-color: #0044ff; }
+.twenty-hidden {
+  display:none; }
+.twenty:hover .twenty-hidden {
+  display:block; }
+
+.twentyone {
+  float:left;
+  top: 25%;
+  left:50%;
+  position:absolute; }
+.twentyone:hover {
+  font-color: #0044ff; }
+.twentyone-hidden {
+  display:none; }
+.twentyone:hover .twentyone-hidden {
+  display:block; }
+
+.twentytwo {
+  float:left;
+  top: 30%;
+  left:50%;
+  position:absolute; }
+.twentytwo:hover {
+  font-color: #0044ff; }
+.twentytwo-hidden {
+  display:none; }
+.twentytwo:hover .twentytwo-hidden {
+  display:block; }
+
+.twentythree {
+  float:left;
+  top: 35%;
+  left:50%;
+  position:absolute; }
+.twentythree:hover {
+  font-color: #0044ff; }
+.twentythree-hidden {
+  display:none; }
+.twentythree:hover .twentythree-hidden {
+  display:block; }
+
+.twentyfour {
+  float:left;
+  top: 40%;
+  left:50%;
+  position:absolute; }
+.twentyfour:hover {
+  font-color: #0044ff; }
+.twentyfour-hidden {
+  display:none; }
+.twentyfour:hover .twentyfour-hidden {
+  display:block; }
+
+.twentyfive {
+  float:left;
+  top: 45%;
+  left: 50%;
+  position:absolute; }
+.twentyfive:hover {
+  font-color: #0044ff; }
+.twentyfive-hidden {
+  display:none; }
+.twentyfive:hover .twentyfive-hidden {
+  display:block; }
+
+.twentysix {
+  float:left;
+  top: 50%;
+  left: 50%;
+  position:absolute; }
+.twentysix:hover {
+  font-color: #0044ff; }
+.twentysix-hidden {
+  display:none; }
+.twentysix:hover .twentysix-hidden {
+  display:block; }
+
+.twentyseven {
+  float:left;
+  top: 55%;
+  left: 50%;
+  position:absolute; }
+.twentyseven:hover {
+  font-color: #0044ff; }
+.twentyseven-hidden {
+  display:none; }
+.twentyseven:hover .twentyseven-hidden {
+  display:block; }
+
+.twentyeight {
+  float:left;
+  top: 60%;
+  left: 50%;
+  position:absolute; }
+.twentyeight:hover {
+  font-color: #0044ff; }
+.twentyeight-hidden {
+  display:none; }
+.twentyeight:hover .twentyeight-hidden {
+  display:block; }
+
+.twentynine {
+  float:left;
+  top: 65%;
+  left: 50%;
+  position:absolute; }
+.twentynine:hover {
+  font-color: #0044ff; }
+.twentynine-hidden {
+  twentynine:none; }
+.twentysix:hover .twentynine-hidden {
+  display:block; }
+
+.thirty {
+  float:left;
+  top: 70%;
+  left: 50%;
+  position:absolute; }
+.thirty:hover {
+  font-color: #0044ff; }
+.thirty-hidden {
+  display:none; }
+.thirty:hover .thirty-hidden {
+  display:block; }
+
+.thirtyone {
+  float:left;
+  top: 75%;
+  left: 50%;
+  position:absolute; }
+.thirtyone:hover {
+  font-color: #0044ff; }
+.thirtyone-hidden {
+  display:none; }
+.thirtyone:hover .thirtyone-hidden {
+  display:block; }
+
+.thirtytwo {
+  float:left;
+  top: 80%;
+  left: 50%;
+  position:absolute; }
+.thirtytwo:hover {
+  font-color: #0044ff; }
+.thirtytwo-hidden {
+  display:none; }
+.thirtytwo:hover .thirtytwo-hidden {
+  display:block; }
+
+.thirtythree {
+  float:left;
+  top: 85%;
+  left: 50%;
+  position:absolute; }
+.thirtythree:hover {
+  font-color: #0044ff; }
+.thirtythree-hidden {
+  display:none; }
+.thirtythree:hover .thirtthirtythreeyfour-hidden {
+  display:block; }
+
+.thirtyfour {
+  float:left;
+  top: 85%;
+  left: 30%;
+  position:absolute; }
+.thirtyfour:hover {
+  font-color: #0044ff; }
+.thirtyfour-hidden {
+  display:none; }
+.thirtyfour:hover .thirtyfour-hidden {
+  display:block; }

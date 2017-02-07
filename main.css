@@ -596,4 +596,29 @@ ul p {
   text-decoration: none;
 }
 
+.button3 {
+    all: initial;
+  * {
+    all: unset;
+  }
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  background: #0f0f0f;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.button3:hover{
+  background: #a0a0a0;
+  text-decoration: none;
+}
+
+
 
