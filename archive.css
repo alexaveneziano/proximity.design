@@ -42,21 +42,6 @@ body {
   text-shadow: 0 1px 0 #fff;
 }
 
-.two {
-  float:left;
-  top:30%;
-  left:70%;
-  position:absolute; }
-.two:hover {
-  font-color: #0044ff; }
-.two-hidden {
-  display:none; }
-.two:hover .two-hidden {
-   display:block;  float:left;
-  top:-200px;
-  left:-700px;
-    position:absolute;;
-  display:block;}
 
 /*.columns a:hover {
   color: #ccc;
