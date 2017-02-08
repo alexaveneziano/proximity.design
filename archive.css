@@ -13,6 +13,7 @@ body {
    max-width: 100%;
    font-family: 'Roboto', sans-serif;
 
+
 }
 
 .columns {
@@ -22,13 +23,42 @@ body {
      -moz-column-count: 2;
           column-count: 2;
 
+
 }
 .columns a {
   text-decoration:none;
   color: #000;
 
 }
-.columns a:hover {
+
+
+.columns a:hover  {
+  color: transparent;
+  text-shadow: 0 0 3px #aaa;
+}
+
+.columns a:hover a:hover  {
+  color: #444;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.two {
+  float:left;
+  top:30%;
+  left:70%;
+  position:absolute; }
+.two:hover {
+  font-color: #0044ff; }
+.two-hidden {
+  display:none; }
+.two:hover .two-hidden {
+   display:block;  float:left;
+  top:-200px;
+  left:-700px;
+    position:absolute;;
+  display:block;}
+
+/*.columns a:hover {
   color: #ccc;
 }
 
