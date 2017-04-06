@@ -134,7 +134,7 @@ button {
   box-shadow: 0 0 0 10px 3px rgba(0, 0, 0, 0), 0 0 10px 3px solid; /*.125 8px (both) transparent*/
   border-radius: 50%;
 }
-/*
+
 .container > .ball > .lat:after, .container > .ball .lng:after {
   content: '';
   box-sizing: border-box;
