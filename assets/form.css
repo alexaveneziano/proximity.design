@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'decided';
+    src: url('assets/decided.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	width: 100%;
+	color: #000;
+	font-size: 62.5%;
+}
+
+form {
+	margin: 2%;
+}
+
+textarea, input, button { outline: none; }
+
+input[type=submit] {
+	background: #000;
+	border: none;
+	color: #fff;
+	padding: .25% 1% .25% 1%;
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+input[type=text] {
+	background: #fff;
+	border: none;
+	padding: 25% 1% 0 1%;
+	font-size: 18px;
+	width: 90%;
+	font-family:'decided';
+}
+
+::-webkit-input-placeholder { font-family: 'Roboto', sans-serif; }
+::-moz-placeholder { font-family: 'Roboto', sans-serif; } /* firefox 19+ */
+:-ms-input-placeholder { font-family: 'Roboto', sans-serif; } /* ie */
+input:-moz-placeholder { font-family: 'Roboto', sans-serif; }
