@@ -17,12 +17,6 @@ input {width: 600px;
     margin-bottom: 10px;
     background-color: white;}
 
-button {
-    width: 120px;
-    height: 40px;
-    margin-left: 400px;
-    display: block;
-}
 
 /* Screen border */
 /*canvas {
@@ -105,11 +99,11 @@ button {
 }
 
 
-.container > .ball.spin {
+/*.container > .ball.spin {
   -moz-animation: spin 5s linear infinite;
   -webkit-animation: spin 5s linear infinite;
   animation: spin 5s linear infinite;
-}
+}*/
 
 
 .container > .ball > .lat, .container > .ball .lng {
