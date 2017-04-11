@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=roboto:300,400');
+
 html {
    height: 100%;
    width: 100%;
@@ -6,7 +8,7 @@ html {
    text-align: left;
 }
 
-body {
+/*body {
   max-width: 100%;
   position: fixed;
 }
@@ -15,7 +17,8 @@ input {width: 600px;
     height: 300px;
     display: block;
     margin-bottom: 10px;
-    background-color: white;}
+    background-color: black;}*/
+
 
 
 /* Screen border */
@@ -99,11 +102,11 @@ input {width: 600px;
 }
 
 
-/*.container > .ball.spin {
+.container > .ball.spin {
   -moz-animation: spin 5s linear infinite;
   -webkit-animation: spin 5s linear infinite;
   animation: spin 5s linear infinite;
-}*/
+}
 
 
 .container > .ball > .lat, .container > .ball .lng {
@@ -129,7 +132,7 @@ input {width: 600px;
   border-radius: 50%;
 }
 
-.container > .ball > .lat:after, .container > .ball .lng:after {
+/*.container > .ball > .lat:after, .container > .ball .lng:after {
   content: '';
   box-sizing: border-box;
   position: absolute;
@@ -275,6 +278,10 @@ input {width: 600px;
   -webkit-box-shadow: 0 0 0 10px 3px rgba(0, 0, 0, 0), 0 0 10px 3px solid; /*.125 (both) 8px transparent*/
   box-shadow: 0 0 0 10px 3px rgba(0, 0, 0, 0), 0 0 10px 3px solid; /*.125 8px (both) transparent*/
   border-radius: 50%;
+}
+
+.size {
+  resize: 50%;
 }
 /*
 .container > .ball > .lat:after, .container > .ball .lng:after {
@@ -535,11 +542,28 @@ input {width: 600px;
   position: absolute;
 }
 
-.questions button .button {
+.click {  position: absolute;
+  margin-top: 40px;
+  font-color: black;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 12px;
+  background: #0f0f0f;
+  padding: 8px 12px 8px 12px;
+  margin-top: 50px;
+  border: none;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+
+.button {
   position: absolute;
   margin-top: 5%;
   font-color: #000;
-  font-family: 'univers';
+  font-family: 'Roboto';
+
 }
 
 .button {
@@ -577,8 +601,8 @@ ul p {
 }
 
 
-/*
-.button2 {
+
+.button {
     all: initial;
   * {
     all: unset;
@@ -598,12 +622,12 @@ ul p {
   display: inline-block;
 }
 
-.button2:hover{
+.button:hover{
   background: #a0a0a0;
   text-decoration: none;
 }
 
-.button3 {
+.button {
     all: initial;
   * {
     all: unset;
@@ -622,10 +646,37 @@ ul p {
   position: absolute;
 }
 
-.button3:hover{
+/*.click:hover{
+  
   background: #a0a0a0;
   text-decoration: none;
+} */
+a {
+  text-decoration:none;
+  color: #000;
+
 }
+
+.click a:hover  {
+  color: transparent;
+  text-shadow: 0 0 3px #aaa;
+}
+
+.click a:hover  {
+  color: #444;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.one {margin-left: 10%; text-decoration: none;}
+
+.two {margin-left: 30%;}
+
+.three {margin-left: 50%;}
+
+.four {margin-left: 70%;}
+
+
+
 
 
 
