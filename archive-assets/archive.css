@@ -33,32 +33,41 @@ body {
 #name-id {
 }
 
-.columns {
-   width: 60%;
-   margin: 5% 0 0 35%;
-  -webkit-column-count: 4;
-     -moz-column-count: 4;
-          column-count: 4;
 
-
-}
-.columns a {
+/*
+.column a {
   text-decoration:none;
   color: #000;
-
 }
 
-
-.columns a:hover  {
+.column a:hover  {
   color: transparent;
   text-shadow: 0 0 3px #aaa;
 }
 
-.columns a:hover a:hover  {
+.column a:hover a:hover  {
   color: #444;
   text-shadow: 0 1px 0 #fff;
+} 
+*/
+
+.column a {
+  text-decoration: none;
+  color: transparent;
+  text-shadow: 0 0 3px #aaa;
 }
 
+.column a:hover  {
+  color: #000;
+  text-shadow: none;
+}
+
+.column p, .column h1{ padding: 5px; }
+#wrapper {  
+  float: right;
+  width: 60vw;
+}
+.wide, .thin { clear:both; }
 
 
 /*
