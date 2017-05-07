@@ -4,7 +4,7 @@
 
 #div1 {
 	width:250px;
-	height:500px;
+	height:540px;
 	padding:10px;
 	border:1px 
 	solid #aaaaaa;
@@ -21,27 +21,40 @@
   font-size: 14px; 
   text-align: left;
   line-height: 18px ;
-  width:230px;
+  width:250px;
   height:500px;
   padding:10px;
 	position:absolute;
-  top:10%;
-  left:5%;
+  top:7%;
+  left:10%;
 	}
 
 
-.button:hover{
-  background: #a0a0a0;
-  text-decoration: none;
+button {
+  /*
+  all: initial;
+  * { all: unset; }
+  */
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border: solid 1px;
+  margin: 600px 5% -5% 10%;
+  padding: .5% .75% .5% .75%;
+  display: inline-block;
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 11px;
+  background: transparent;
+  z-index: 99999;
 }
 
-ul li {
-  list-style: none;
+button:hover{
+  background: #000;
+  color: #fff;
 }
 
-ul p {
-  opacity: .25;
-  font-style: italic;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
+
+
+
+
+
