@@ -19,7 +19,7 @@ body {
 
 .name {
   float:left;
-  top:10%;
+  top:72px;
   left:5%;
   text-align: left;
   position:absolute; }
@@ -66,6 +66,9 @@ body {
 #wrapper {  
   float: right;
   width: 60vw;
+  position:relative;
+  top:45px;
+
 }
 .wide, .thin { clear:both; }
 
