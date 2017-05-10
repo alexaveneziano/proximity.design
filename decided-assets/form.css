@@ -40,3 +40,13 @@ input[type=text] {
 ::-moz-placeholder { font-family: 'Roboto', sans-serif; } /* firefox 19+ */
 :-ms-input-placeholder { font-family: 'Roboto', sans-serif; } /* ie */
 input:-moz-placeholder { font-family: 'Roboto', sans-serif; }
+
+button {
+	background: #000;
+	border: none;
+	color: #fff;
+	padding: .25% 1% .25% 1%;
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Roboto', sans-serif;
+}
