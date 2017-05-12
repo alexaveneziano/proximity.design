@@ -4,8 +4,6 @@
    <meta charset="utf-8">
    <title>identify</title>
    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-   <!-- refresh page after time -->
-        <meta http-equiv="refresh" content="5">
 
    <!-- REDIRECT (discouraged method) 
    <meta http-equiv="refresh" content="0; URL='https://alexaveneziano.github.io/webcam/identify.html'" /> -->
@@ -22,5 +20,13 @@
 	<script>
 	window.location = "https://alexaveneziano.github.io/webcam/identify.html";
 	</script>
+	
+	<script type="text/javascript">
+	(function(){
+	   setTimeout(function(){
+	     window.location="https://alexaveneziano.github.io/webcam/identify.html";
+	   },3000); /* 1000 = 1 second*/
+	})();
+</script>
 </body>
 </html>
