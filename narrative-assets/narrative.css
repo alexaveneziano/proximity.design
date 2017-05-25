@@ -8,9 +8,9 @@
 	padding:10px;
 	border:1px 
 	solid #aaaaaa;
-	position:absolute;
-	top:10%;
-  left:70%;
+	position:fixed;
+	top:55px;
+  left:60%;
   font-family: 'Roboto', sans-serif;
   font-size: 14px; 
   text-align: left;
@@ -19,13 +19,14 @@
 .draggable {  
   font-family: 'Roboto', sans-serif;
   font-size: 14px; 
+  opacity: 70%;
   text-align: left;
   line-height: 18px ;
-  width:250px;
+  width:275px;
   height:500px;
   padding:10px;
-	position:absolute;
-  top:7%;
+	position:fixed;
+  top:50px;
   left:10%;
 	}
 
@@ -53,6 +54,34 @@ button:hover{
   color: #fff;
 }
 
+.label{font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: italic; 
+  text-align: left; 
+  position:fixed;
+  width:30px;
+  height:10px;
+  left:5%;
+  margin-top: -540px;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    text-transform: rotate(-90deg);   
+}
+
+.label2
+{font-family: 'Roboto', sans-serif;
+  font-size: 14px; 
+  font-style: italic;
+  text-align: left; 
+  position:fixed;
+  width:30px;
+  height:10px;
+  left:55%;
+  margin-top:-540px;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    text-transform: rotate(-90deg);
+}
 
 
 
